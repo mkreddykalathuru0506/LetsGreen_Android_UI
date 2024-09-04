@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- IDs for Forgot Password Fragment -->
+
+    <!-- ID for the "Back to Login" TextView -->
+    <item name="backToLogin" type="id"/>
+
+    <!-- ID for the "Mobile Number Input" EditText -->
+    <item name="forgotPasswordMobileNumber" type="id"/>
+
+    <!-- ID for the "Reset Password" Button -->
+    <item name="resetPasswordButton" type="id"/>
+
+
+    <!-- Top Header IDs -->
+    <item name="user" type="id"/>
+    <item name="flagImage" type="id"/>
+    <item name="upiIdText" type="id"/>
+    <item name="qrIcon" type="id"/>
+    <item name="notificationIcon" type="id"/>
+    <item name="helpIcon" type="id"/>
+
+    <!-- Transfer Money Section IDs -->
+    <item name="transferMoneyText" type="id"/>
+    <item name="toMobileNumber" type="id"/>
+    <item name="toBankUPI" type="id"/>
+    <item name="toSelfAccount" type="id"/>
+    <item name="checkBankBalance" type="id"/>
+
+    <item name="toMobileNumber1" type="id"/>
+    <item name="toBankUPI1" type="id"/>
+    <item name="toSelfAccount1" type="id"/>
+    <item name="checkBankBalance1" type="id"/>
+
+
+    <!-- Recharge & Pay Bills Section IDs -->
+    <item name="nearTrees" type="id"/>
+    <item name="myTrees" type="id"/>
+    <item name="locateTree" type="id"/>
+    <item name="dthRecharge" type="id"/>
+    <item name="electricityBill" type="id"/>
+    <item name="creditCardBill" type="id"/>
+    <item name="rentPayment" type="id"/>
+    <item name="loanRepayment" type="id"/>
+    <item name="bookCylinder" type="id"/>
+    <item name="seeAll" type="id"/>
+
+    <!-- Bottom Navigation Bar IDs -->
+    <item name="homeIcon" type="id"/>
+    <item name="storesIcon" type="id"/>
+    <item name="insuranceIcon" type="id"/>
+    <item name="investmentsIcon" type="id"/>
+    <item name="historyIcon" type="id"/>
+
+    <item name="fragmentContainer1" type="id"/>
+    <item name="fragmentContainer2" type="id"/>
+    <item name="fragmentContainer" type="id" />
+
+</resources>

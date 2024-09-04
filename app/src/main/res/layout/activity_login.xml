@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:src="@drawable/user"/>
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome back!"
+        android:textSize="28sp"
+        android:textColor="#333333"
+    android:layout_marginTop="24dp"
+    android:gravity="center"
+    android:textStyle="bold"/>
+
+    <!-- Subtext -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login to continue with PhonePe"
+        android:textSize="16sp"
+        android:textColor="#666666"
+    android:gravity="center"
+    android:layout_marginTop="8dp"/>
+
+    <!-- Mobile Number Input -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
+    android:padding="8dp"
+    android:layout_gravity="center">
+
+        <EditText
+        android:id="@+id/mobileNumber"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:inputType="phone"
+        android:hint="10-digit mobile number"
+        android:maxLength="10"
+        android:textColor="#333333"
+    android:paddingStart="8dp"
+    android:layout_marginStart="8dp"/>
+</LinearLayout>
+
+    <!-- Password Input -->
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="16dp"
+android:orientation="horizontal"
+    android:padding="8dp"
+    android:layout_gravity="center">
+
+<EditText
+android:id="@+id/password"
+android:layout_width="0dp"
+android:layout_height="48dp"
+android:layout_weight="1"
+android:inputType="numberPassword"
+android:hint="Enter 4-digit password"
+android:textColor="#333333"
+    android:maxLength="4"
+    android:paddingStart="8dp"
+    android:layout_marginStart="8dp"/>
+
+</LinearLayout>
+
+    <!-- Login Button -->
+<Button
+android:id="@+id/loginButton"
+android:layout_width="match_parent"
+android:layout_height="48dp"
+android:text="LOGIN"
+android:textColor="@android:color/white"
+android:backgroundTint="#6200EE"
+    android:layout_marginTop="24dp"
+    android:textAllCaps="false"/>
+
+    <!-- Forgot Password Link -->
+<TextView
+android:id="@+id/forgotPassword"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Forgot password?"
+android:textColor="#00796B"
+    android:layout_gravity="center"
+    android:layout_marginTop="16dp"/>
+
+    <!-- Register Link -->
+<TextView
+android:id="@+id/registerLink"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Don't have a PhonePe account? REGISTER"
+android:textColor="#6200EE"
+    android:layout_gravity="center"
+    android:layout_marginTop="24dp"/>
+    </LinearLayout>
